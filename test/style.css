@@ -1,0 +1,104 @@
+p{
+    font-family: 'Lalezar', sans-serif;
+    direction: rtl;
+}
+#icon{
+    border:2px solid #1d2538;
+    border-radius:100px;
+    float: right;
+    width:60px;
+    height: 60px;
+    margin-right: 5px;
+}
+#navbar{
+    margin: 15px;
+    width: 30px;
+    float: left;
+    height: 30px;
+    border: 2px solid #1d2538;
+    border-radius: 6px;
+    padding: 4px;
+}
+#navigationBar{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #1d2538 solid;
+    border-radius: 5px;
+    position: sticky;
+    padding: 4px;
+    padding-bottom: 9px;
+    top: 5px;
+    background-color: #556eba; 
+    z-index: 1;     /* to make navbar float over the images */
+}
+
+#header{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    left: 3px;
+    font-family: "Ink Free", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#telegram{
+    margin-top: 5px;
+    margin-left: 100px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#intro_paragraph{
+    text-align:center;
+    direction:rtl;
+    font-size:38px;
+    font-family: 'Lalezar', sans-serif;
+}
+
+#card_types{
+    width:80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #252e47;
+    border-radius: 8px;
+}
+#description{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact{
+    border-top: 2px solid black;
+    margin:0px;
+    direction: rtl;
+}
+
+
+
+
+.row {
+    display: flex;
+}
+
+.column{
+    transition: 0.2s;
+    flex: 33.33%;
+    padding: 5px;
+    filter: gray;
+    -webkit-filter: grayscale(0.3);
+    scale:1;
+}
+.column:hover{
+    filter: none;
+    transition: 0.2s;
+    -webkit-filter: grayscale(0);
+    scale:1.03;
+}
+
+#body{
+    background:linear-gradient(to right top, #7b93dc, #566698)
+}
